@@ -17,7 +17,7 @@ const WorkExperience = ({ experiences }: WorkExperienceProps) => {
   return (
     <div id="experience" className={styles.experienceWrapper}>
       <div className={styles.workExperience}>
-        <h2 className={styles.title}>Work Experience</h2>
+        <p className={styles.title}>Work Experience</p>
         <div className={styles.timeline}>
           {experiences.map((exp, index) => (
             <div key={index} className={styles.timelineItem}>
